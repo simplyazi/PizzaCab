@@ -1,0 +1,127 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Pizza</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static 'css/HomePage.css' %}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  {% block content %}
+  <body id="body">
+    <img id="logo" src="{% static 'img/Pizza.png' %}" alt="">
+
+  <div class ="box-area">
+    <header>
+
+      <div class="wrapper">
+        <div class="logo">
+          <script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+          <lord-icon
+          src="https://cdn.lordicon.com/jpdtnwas.json"
+          trigger="loop"
+          colors="primary:#121331,secondary:#08a88a"
+          style="width:100px;height:100px">
+          </lord-icon><a href="#">PIZZA CAB</a>
+        </div>
+
+        <nav>
+          <a href="#">Home</a>
+          <a href="{% url 'logout' %}">Log Out</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="banner-area">
+      <img id="banner" src="{% static 'img/back.jpg' %}" alt="">
+    </div>
+
+    <div class="content-area">
+      <div class="wrapper">
+        <h2>content area</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+    <div class="order-area">
+      <div class="wrapper">
+        <h1>ORDER AREA</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="car text-center">
+          <img src="{% static 'img/Peperoni.jpg' %}" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">GYM FLOOR</h5>
+            <p class="card-text">Some quick example</p>
+            <a href="#">Check</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="car text-center">
+          <img src="{% static 'img/Peperoni.jpg' %}" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">GYM FLOOR</h5>
+            <p class="card-text">Some quick example</p>
+            <a href="#">Check</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="car text-center">
+          <img src="{% static 'img/Peperoni.jpg' %}" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">GYM FLOOR</h5>
+            <p class="card-text">Some quick example</p>
+            <a href="#">Check</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="car text-center">
+          <img src="{% static 'img/Peperoni.jpg' %}" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">GYM FLOOR</h5>
+            <p class="card-text">Some quick example</p>
+            <a href="#">Check</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="car text-center">
+          <img src="{% static 'img/Peperoni.jpg' %}" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">GYM FLOOR</h5>
+            <p class="card-text">Some quick example</p>
+            <a href="#">Check</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="car text-center">
+          <img src="{% static 'img/Peperoni.jpg' %}" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">GYM FLOOR</h5>
+            <p class="card-text">Some quick example</p>
+            <a href="#">Check</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p>Contact Information Content Here!</p>
+
+  </div>
+
+  </body>
+  {% endblock %}
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>

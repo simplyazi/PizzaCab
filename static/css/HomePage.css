@@ -1,0 +1,85 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+#logo{
+position: absolute;
+width: 203.05px;
+height: 200px;
+left: 24px;
+top: 110px;
+border-radius: 250px;
+}
+#background{
+  background-repeat: no-repeat;
+  background-size: 1800px 900px;
+  background-position: top;
+  background-attachment: fixed;
+}
+#body{
+  text-align: center;
+}
+
+.wrapper{
+  width: 1170px;
+  margin: 0 auto;
+}
+header{
+  height: 100px;
+  background:#262626;
+  width: 100%;
+  z-index: 12;
+  position: fixed;
+}
+.logo{
+  width: 30%;
+  float: left;
+  line-height: 100px;
+
+}
+.logo a{
+  text-decoration: none;
+  font-size: 30px;
+  font-family: bignoodletitling;
+  color: #ffff;
+  letter-spacing: 5px;
+}
+
+nav{
+  float: right;
+  line-height: 100px;
+
+}
+nav a{
+  text-decoration: none;
+  font-family: bignoodletitling;
+  letter-spacing: 4px;
+  font-size: 20px;
+  margin: 0 10px;
+  color: #ffff;
+}
+#banner{
+  position: center;
+  width: 1440px;
+  height: 506px;
+}
+h2{
+  color: green;
+}
+.row{
+  margin-bottom: 15px;
+}
+.card-body{
+  box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.1);
+}
+.card-body a{
+  color: #0c7f90;
+  text-decoration: none;
+  font-size: 15px;
+  margin-top: 15px;
+  font-weight: 600;
+}
+.card-body a:hover{
+  color: #63a6b0;
+  text-decoration: none;
+}
